@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a7183c37d3bd03408c1df00d6c08253, type: 3}
+  m_Name: Infinity mode
+  m_EditorClassIdentifier: 
+  isItInfinityMode: 1
+  stage_title: 
+  stageName: 0
+  stageNumber: 0
+  stage_sprite: {fileID: 21300000, guid: a05e65673eb33da43b6991c0ac8d7887, type: 3}
+  enemy_no: 2
+  spawnRate: 0.1
+  max_enemy_num: 5
+  stage_prefab: {fileID: 1644000637407818, guid: fabbdf83b4fdb06499ed336a292cd44b,
+    type: 2}
+  boss: {fileID: 0}
+  enemy_prefabs:
+  - {fileID: 1250780665388054, guid: 8629b677fba4e95429838ea24deaba58, type: 2}
+  - {fileID: 1570708260552470, guid: d916834e1cd888b458a139219914e140, type: 2}
+  - {fileID: 1784172429306310, guid: 6646b1adae16ded4188271cfa886f485, type: 2}
+  - {fileID: 1736344050514300, guid: d64cedf8795a8c4479092dc2d5517ba5, type: 2}
+  - {fileID: 1936500831159828, guid: 87e4a0506e8313e4e956c7de5c1c5140, type: 2}
+  - {fileID: 1021031321624750, guid: 924b7e6aba926e2478f9ad2d48894df6, type: 2}
+  - {fileID: 1558206811336018, guid: cecce52d0de36994c818138a133ff2ae, type: 2}
+  - {fileID: 1695442324678140, guid: 190e869deb475c54a9f4f105fe45ec0b, type: 2}
+  - {fileID: 1439612489024808, guid: a90f421699ab3c147816ad7c59b78f6c, type: 2}
+  - {fileID: 1857458116337092, guid: d8c777b11875bb940a65e75c3e11f0e5, type: 2}
+  - {fileID: 1105358555810564, guid: 99d6a1ea8fc31eb4ba0a85efe8b77d64, type: 2}
+  max_colectable_num: 100
+  timeForSpawnFirstCollectable: 20
+  collectable_Spawn_Rate: 20
+  collectablePrefabs:
+  - {fileID: 1440089145136944, guid: c28cbb5e0bd491f41ad251cfb93a9ebf, type: 2}
+  - {fileID: 1459588786385598, guid: c649cfc08b373214098c3ac6562ad654, type: 2}
+  - {fileID: 1651647236711856, guid: c7fbc3106a50fb848b47ec5ee34760fa, type: 2}
+  - {fileID: 1600332644025326, guid: c7fa21ca5ffcf37459bbff1bd2043709, type: 2}
+  - {fileID: 1867659818961878, guid: 1bbfc9e5da53b574eaec3c2d32fb7ccb, type: 2}

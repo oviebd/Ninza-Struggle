@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a7183c37d3bd03408c1df00d6c08253, type: 3}
+  m_Name: Stage 1
+  m_EditorClassIdentifier: 
+  isItInfinityMode: 0
+  stage_title: The Origins
+  stageName: 0
+  stageNumber: 1
+  stage_sprite: {fileID: 21300000, guid: 60238d527919dbd40adc65c19dd751be, type: 3}
+  enemy_no: 3
+  spawnRate: 1
+  max_enemy_num: 15
+  stage_prefab: {fileID: 1599792575008598, guid: cca71e016a35d69468be589923df03b2,
+    type: 2}
+  boss: {fileID: 0}
+  enemy_prefabs:
+  - {fileID: 1105358555810564, guid: 99d6a1ea8fc31eb4ba0a85efe8b77d64, type: 2}
+  - {fileID: 1570708260552470, guid: d916834e1cd888b458a139219914e140, type: 2}
+  - {fileID: 1784172429306310, guid: 6646b1adae16ded4188271cfa886f485, type: 2}
+  max_colectable_num: 2
+  timeForSpawnFirstCollectable: 10
+  collectable_Spawn_Rate: 10
+  collectablePrefabs:
+  - {fileID: 1440089145136944, guid: c28cbb5e0bd491f41ad251cfb93a9ebf, type: 2}
+  - {fileID: 1459588786385598, guid: c649cfc08b373214098c3ac6562ad654, type: 2}
